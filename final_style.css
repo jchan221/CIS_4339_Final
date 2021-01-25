@@ -5,7 +5,7 @@ header img {
 
 body {
   height: 125vh;
-  background-image: url("shoes.png");
+  background-color: rgba(25, 75, 141, 0.432);
   background-size: auto;
   font-family: sans-serif;
   margin-top: 80px;
@@ -13,13 +13,14 @@ body {
 }
 
 main {
+  text-align-last: center;
   color: black;
 
 }
 
 header {
   background-color: rgb(135, 193, 240);
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -41,3 +42,125 @@ header li a {
   color: black;
   text-decoration: none;
 }
+
+.Nike{
+height: 200px;
+width: 200px;
+padding: 50px;
+object-fit: cover;
+}
+.Adidas{
+height: 200px;
+width: 200px;
+padding: 50px;
+object-fit: cover;
+}
+.Jordan{
+height: 200px;
+width: 200px;
+padding: 50px;
+object-fit: cover;
+}  
+ 
+.Yeezy{
+height: 200px;
+width: 200px;
+padding: 50px;
+object-fit: cover;
+}
+.Brands{
+  list-style-type: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: flex;
+}
+ .para2{
+  position: absolute;
+  top: 32%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  text-indent: -30px;
+  font-style: oblique;
+  
+ }
+ .para3{
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  text-indent: -30px;
+  font-style: oblique;
+  white-space: nowrap;
+
+ }
+ .pop1{
+  height: 200px;
+  width: 200px;
+  padding: 50px;
+  object-fit: cover;
+  }
+  .pop2{
+  height: 200px;
+  width: 200px;
+  padding: 50px;
+  object-fit: cover;
+  }
+  .pop3{
+  height: 200px;
+  width: 200px;
+  padding: 50px;
+  object-fit: cover;
+  }  
+   
+  .pop4{
+  height: 200px;
+  width: 200px;
+  padding: 50px;
+  object-fit: cover;
+  }
+  
+
+  .pop{
+  list-style-type: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: flex;
+  }
+  .pop5{
+  height: 200px;
+  width: 200px;
+  padding: 50px;
+  object-fit: cover;
+  }
+  .pop6{
+    height: 200px;
+    width: 200px;
+    padding: 50px;
+    object-fit: cover;
+  }
+  .pop7{
+    height: 200px;
+    width: 200px;
+    padding: 50px;
+    object-fit: cover;
+  }
+  .pop8{
+    height: 200px;
+    width: 200px;
+    padding: 50px;
+    object-fit: cover;
+  }
+  .pop01{
+  list-style-type: none;
+  position: absolute;
+  top: 120%;
+  left: 17%;
+  transform: translateX(-0%) translateY(-0%);
+  display: flex;
+  }
