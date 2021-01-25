@@ -6,7 +6,7 @@ header img {
 body {
   height: 125vh;
   background-image: url("shoes.png");
-  background-size: cover;
+  background-size: auto;
   font-family: sans-serif;
   margin-top: 80px;
   padding: 30px;
@@ -26,7 +26,6 @@ header {
   height: 80px;
   display: flex;
   align-items: center;
-  cursor: pointer;
 }
 
 header * {
@@ -35,6 +34,7 @@ header * {
 
 header li {
   margin: 20px;
+  cursor: pointer;
 }
 
 header li a {
