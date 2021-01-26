@@ -5,7 +5,7 @@ header img {
 
 body {
   height: 125vh;
-  background-color: rgba(25, 75, 141, 0.432);
+  background-image: url("shoes.png");
   background-size: auto;
   font-family: sans-serif;
   margin-top: 80px;
@@ -15,7 +15,7 @@ body {
 main {
   text-align-last: center;
   color: black;
-
+  font-weight: 700;
 }
 
 header {
@@ -75,27 +75,29 @@ object-fit: cover;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   display: flex;
+  background-color: rgba(25, 75, 141, 0.568);
 }
  .para2{
   position: absolute;
-  top: 32%;
+  top: 25%;
   width: 100%;
   text-align: center;
-  font-size: 18px;
+  font-size: 25px;
   text-indent: -30px;
   font-style: oblique;
-  
+  font-weight: 800;
+
  }
  .para3{
   position: absolute;
-  top: 70%;
+  top: 75%;
   width: 100%;
   text-align: center;
-  font-size: 18px;
+  font-size: 25px;
   text-indent: -30px;
   font-style: oblique;
   white-space: nowrap;
-
+  font-weight: 800;
  }
  .pop1{
   height: 200px;
@@ -131,6 +133,8 @@ object-fit: cover;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   display: flex;
+  background-color: rgba(25, 75, 141, 0.568);
+
   }
   .pop5{
   height: 200px;
@@ -163,4 +167,6 @@ object-fit: cover;
   left: 17%;
   transform: translateX(-0%) translateY(-0%);
   display: flex;
+  background-color: rgba(25, 75, 141, 0.568);
+
   }
